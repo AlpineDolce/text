@@ -79,7 +79,36 @@ RAG(검색-증강 생성) 기술을 활용한 **카드 추천 챗봇 서비스**
   - 기존 추천 서비스와 달리 실시간 응답 및 정확한 추천 제공.
 
 ---
+1. '맞춤형 카드 추천' 버튼 클릭
+   
+![첫화면(맞춤형 카드 추천)](https://github.com/user-attachments/assets/22f60dda-2f5d-4834-8376-2118993628d5)
 
+1-1. 가계부 '네' 버튼 클릭
+
+![가계부 yes](https://github.com/user-attachments/assets/2cd3fc75-5106-4c7f-8391-c33ede104965)
+![카드 소비 내역 파일 포함 진행 과정](https://github.com/user-attachments/assets/a03b333c-0a65-4d6d-982e-607fc1034f8f)
+![답변 생성 기다리는 중](https://github.com/user-attachments/assets/66a9ba26-5e35-406e-82b6-794587b2e75d)
+![결과1](https://github.com/user-attachments/assets/36e5138e-69cc-4466-91cd-86fa96a66abf)
+![연이은 채팅 가능](https://github.com/user-attachments/assets/ce007a2b-becb-4531-8e22-39510c5c7d81)
+
+1-2. 가계부 '아니오' 버튼 클릭
+
+![가계부 no](https://github.com/user-attachments/assets/a3d932bf-3a6c-42c0-8dfc-c22b727031ad)
+![카드소비내역 없을 시 카드 선택](https://github.com/user-attachments/assets/6d0406b9-6fc9-45fb-98ca-42bd11333e6c)
+
+2. '챗봇 카드 추천' 버튼 클릭
+
+![챗봇 버튼](https://github.com/user-attachments/assets/51acd368-3210-4587-bda1-83bc3eabb9a2)
+![챗봇](https://github.com/user-attachments/assets/d049eb4b-3547-4f0a-8aba-4a9e553cfff3)
+
+- 1번에서 2번으로 넘어가서 챗봇 사용시 이전 데이터가 불려와지는 부분 개선 필요
+  (xlsx 파일 읽는 부분 개선을 진행하다보니 자연스럽게 또 다른 개선이 필요한 것으로 여겨짐)
+- 초반 시작하고 나서 버튼을 클릭하게 되면 너무 오래 로딩되는 문제가 있어 개선 필요
+- solar-pro(llm) 수준에 맞는 xlsx 파일 데이터 전처리 조치 및 데이터 정확성, 일관성 검토하면서 개선 필요
+- 이후에 항후 계획 참고
+
+
+---
 ## 향후 계획
 - UI/UX 개선 및 캐시 관리 최적화.
 - MyData API 활용으로 정밀도 향상.
